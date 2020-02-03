@@ -1,6 +1,6 @@
-# Base URL = http://www.adidas.com/us/EF1042html?forceSelSizeEF1042_520
-#headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95'}
-
+# Base URL = http://www.adidas.com/us/EF1042.html?forceSelSizeEF1042_520
+#headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15'}
+#
 def URLGen(model, size):
     BaseSize = 500
     ShoeSize = size - 6.5
